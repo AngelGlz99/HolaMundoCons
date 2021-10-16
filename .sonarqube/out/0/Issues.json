@@ -1,0 +1,466 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "3.11.0.0",
+        "fileVersion": "3.11.0-4.21403.6 (ae1fff34)",
+        "semanticVersion": "3.11.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'd' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 17,
+                  "endLine": 20,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'e' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 20,
+                  "endLine": 20,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'f' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'g' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 26,
+                  "endLine": 20,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'h' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 29,
+                  "endLine": 20,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable '_' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 32,
+                  "endLine": 20,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable '__' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 35,
+                  "endLine": 20,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable '___' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 39,
+                  "endLine": 20,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'variable' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 44,
+                  "endLine": 20,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 21,
+                  "endLine": 7,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'd'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 17,
+                  "endLine": 20,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'e'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 20,
+                  "endLine": 20,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'f'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'g'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 26,
+                  "endLine": 20,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'h'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 29,
+                  "endLine": 20,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable '_'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 32,
+                  "endLine": 20,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable '__'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 35,
+                  "endLine": 20,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable '___'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 39,
+                  "endLine": 20,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'variable'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/angel/source/repos/HolaMundo/HolaMundo/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 44,
+                  "endLine": 20,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "La variable está declarada pero nunca se usa",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1186": {
+          "id": "S1186",
+          "shortDescription": "Methods should not be empty",
+          "fullDescription": "There are several reasons for a method not to have a method body:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
